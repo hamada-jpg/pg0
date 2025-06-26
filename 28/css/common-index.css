@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    background-color: #fefefe;
+}
+
+.bottom-border{ /*した線　*/
+    border-bottom: 1px solid;
+}
+/* 画像ズーム */
+
+#zoomback {
+
+/* 絶対位置に配置 */
+position:absolute;
+position: fixed; /* 画面追従*/
+top:0;
+
+/* 画面いっぱいに */
+width:100vw;
+height:100vh;
+
+/* 背景を少し透過 */
+background-color:rgba(0,0,0,0.8);
+
+/* 中のimgを中央揃え */
+display:flex;
+justify-content:center;
+align-items:center;
+display:none
+}
+
+
+/* 拡大画像のサイズを調整 */
+#zoomimg {
+
+width: auto;
+height: 70%;
+border:solid 5px #fff;
+}
+
+/* 画像ズーム　終了　*/
+/* ナビゲーション　*/
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #333333;
+    
+
+    box-shadow: 0px 6px 5px 1px rgba(0,0,0,0.45);
+-webkit-box-shadow: 0px 6px 5px 1px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 6px 5px 1px rgba(0,0,0,0.45);
+}
+nav ul{
+    
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+
+
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+}
+nav a:hover{
+    background-color: #545454;
+}
+
+.window-page a{ /*URL設定*/
+    text-decoration: none;
+    color: rgb(89, 89, 221);
+}
+.window-page a:hover {/*URL設定その２*/
+    text-decoration: underline;
+}
+
+footer{ /* フッター */
+    background-color: #e6e6e6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
