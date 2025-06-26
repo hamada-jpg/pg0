@@ -1,0 +1,12 @@
+.portfolio{ /* 全体デザイン */
+    background-color: #ededed;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #b6b6b6;
+}
+.unity_player{
+    text-align: center;
+}
