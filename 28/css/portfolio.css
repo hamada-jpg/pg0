@@ -10,3 +10,11 @@
 .unity_player{
     text-align: center;
 }
+.page-up-button{/*トップページボタン*/
+    width: 10vw;
+    position: fixed; bottom: 5%; right: 0;
+}
+img {
+    width: 50%;
+    height: 50%;
+}

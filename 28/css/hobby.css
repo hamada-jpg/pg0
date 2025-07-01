@@ -32,3 +32,11 @@ p{ /*読みやすく*/
     margin-left: 10px;
     margin-right: 10px;
 }
+.page-up-button{/*トップページボタン*/
+    width: 10vw;
+    position: fixed; bottom: 5%; right: 0;
+}
+img {
+    width: 50%;
+    height: 50%;
+}

@@ -2,7 +2,7 @@
     width: 20%;
 }
 .intro{ /* 全体デザイン */
-    background-color: #ededed;
+    background-color: rgb(237, 237, 237);
     padding: 10px;
     margin-left: 15%;
     margin-right: 15%;
@@ -12,4 +12,16 @@
 }
 p{ /*読みやすく*/
     margin-bottom: 5px;
+}
+.page-up-button{/*トップページボタン*/
+    width: 10vw;
+    position: fixed; bottom: 5%; right: 0;
+}
+.page-up-button{/*トップページボタン*/
+    width: 10vw;
+    position: fixed; bottom: 5%; right: 0;
+}
+img {
+    width: 50%;
+    height: 50%;
 }

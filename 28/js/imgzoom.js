@@ -6,7 +6,8 @@ const zoomimg = document.getElementById("zoomimg");
 // 一括でイベントリスナ　..②
 zoom.forEach(function(value) {
       value.addEventListener("click",kakudai);
-      });
+     
+});
 
 function kakudai(e) {
 
